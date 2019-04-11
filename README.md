@@ -9,5 +9,3 @@ Personal website.
 ## Authors
 
 * **Jason Mustafa**
-
-## Acknowledgments

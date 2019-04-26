@@ -1,0 +1,191 @@
+/**
+ * 000 - General
+ * 001 - Start
+ * 002 - About
+ * 003 - Projects
+ * 004 - Resume
+ * 005 - Footer
+**/
+
+/* 000 General */
+html,
+body {
+  background: rgb(155, 155, 155);
+  text-align: center;
+  height: 100%;
+}
+
+/* Scrollbar Style */
+
+/* Width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #424242;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+}
+.black-background {
+  background-color: #000000;
+}
+.gray-background {
+  background-color: #182030;
+}
+.tile {
+  padding: 20px;
+}
+.move-up {
+  transition: all 0.2s ease-in-out;
+}
+.move-up:hover {
+  transform: translateY(-10px);
+}
+.tag {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+/* 001 Start */
+.hi {
+  color: #fafafa;
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+}
+.name {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #f50057;
+  font-size: 32px;
+  letter-spacing: 4px;
+  transition: all 0.5s;
+}
+.name:hover {
+  color: #f8bbd0;
+}
+.avatar {
+  width: 192px;
+  height: 192px;
+  margin: auto;
+  padding: 20px;
+}
+.icon-margin {
+  margin: 16px 12px 16px 12px;
+}
+.fa-linkedin {
+  color: #f50057;
+  transition: all 0.5s;
+}
+.fa-linkedin:hover {
+  color: #f8bbd0;
+}
+.fa-gitlab {
+  color: #f50057;
+  transition: all 0.5s;
+}
+.fa-gitlab:hover {
+  color: #f8bbd0;
+}
+.fa-hands-helping {
+  color: #f50057;
+  transition: all 0.5s;
+}
+.fa-hands-helping:hover {
+  color: #f8bbd0;
+}
+.fa-telegram-plane {
+  color: #f50057;
+  transition: all 0.5s;
+}
+.fa-telegram-plane:hover {
+  color: #f8bbd0;
+}
+
+/* 002 About */
+.main-title {
+  font-family: 'Lato', sans-serif;
+  color: #f50057;
+  font-size: 32px;
+  font-weight: bold;
+  padding: 20px;
+}
+.main-subtitle {
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.main-body {
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+  font-size: 18px;
+}
+.main-body-small {
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+  font-size: 14px;
+}
+.about-me-body {
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+  font-size: 18px;
+}
+.fa-code {
+  color: #f50057;
+  margin: 20px;
+}
+.fa-briefcase {
+  color: #f50057;
+  margin: 20px;
+}
+.fa-project-diagram {
+  color: #f50057;
+  margin: 20px;
+}
+
+/* 003 Projects */
+.project-title {
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+  color: #f50057;
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.project-subtitle {
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+  font-size: 20px;
+}
+.project-body {
+  font-family: 'Lato', sans-serif;
+  text-align: left;
+  color: #fafafa;
+  font-size: 16px;
+}
+.moon {
+  filter: invert(68%) sepia(41%) saturate(345%) hue-rotate(218deg) brightness(92%) contrast(86%);
+}
+
+/* 004 Resume */
+.resume-button {
+  background-color: #f50057;
+  color: #fafafa;
+  border-color: #f50057;
+  transition: all 0.5s;
+}
+.resume-button:hover {
+  background-color: #f8bbd0;
+  color: #182030;
+  border-color: #f8bbd0;
+}
+
+/* 005 Footer */
+.footer-text {
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+  font-size: 14px;
+}

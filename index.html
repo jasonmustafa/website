@@ -17,6 +17,7 @@
   </head>
 
   <body>
+    <!-- Start -->
     <section class="hero black-background is-fullheight">
       <div class="hero-body">
         <div class="container has-text-centered">
@@ -71,6 +72,7 @@
       </div>
     </section>
 
+    <!-- About -->
     <section class="hero black-background">
       <div class="hero-body">
         <div class="container">
@@ -87,7 +89,8 @@
       </div>
 
       <div class="tile is-ancestor">
-        <div class="tile is-parent">
+        <!-- Programming Languages -->
+        <div class="tile is-parent move-up">
           <article class="tile is-child box gray-background">
             <i class="fas fa-code fa-2x"></i>
             <div class="main-subtitle">
@@ -114,7 +117,8 @@
           </article>
         </div>
 
-        <div class="tile is-parent">
+        <!-- Experience -->
+        <div class="tile is-parent move-up">
           <article class="tile is-child box gray-background">
             <i class="fas fa-briefcase fa-2x"></i>
 
@@ -140,7 +144,8 @@
           </article>
         </div>
 
-        <div class="tile is-parent">
+        <!-- Software & Frameworks -->
+        <div class="tile is-parent move-up">
           <article class="tile is-child box gray-background">
             <i class="fas fa-project-diagram fa-2x"></i>
             <div class="main-subtitle">
@@ -172,6 +177,7 @@
       </div>
     </section>
 
+    <!-- Projects -->
     <section class="hero black-background">
       <div class="hero-body">
         <h1 class="project-title padding-20">
@@ -179,66 +185,106 @@
         </h1>
 
         <div class="tile is-ancestor">
-          <div class="tile is-parent">
-            <a href="https://prayertimes.netlify.com/" target="_blank" rel="noopener noreferrer">
-              <article class="tile is-child box gray-background move-up">
-                <div class="media">
-                  <div class="media-left">
-                    <figure class="image is-96x96">
-                      <img src="static/wi-night-clear.svg" alt="Placeholder image" class="moon" />
-                    </figure>
-                  </div>
-                  <div class="media-content">
-                    <p class="project-subtitle">Prayer Times</p>
-                    <span class="tag is-dark">React</span>
-                    <span class="tag is-dark">Materia-UI</span>
-                    <span class="tag is-dark">MapQuest API</span>
-                  </div>
-                </div>
-                <div class="project-body">
-                  Web application to view current Islamic prayer times using React and Material-UI.
-                  Uses GEOIP DB to automatically detect user location and the MapQuest Geocoding API
-                  for manual location entry.
-                </div>
-              </article>
-            </a>
-          </div>
-
-          <div class="tile is-parent">
+          <!-- PrayerTimes Project -->
+          <div class="tile is-parent is-4">
             <article class="tile is-child box gray-background move-up">
               <div class="media">
                 <div class="media-left">
-                  <figure class="image is-96x96">
-                    <img src="static/snowy.png" alt="Placeholder image" />
+                  <figure class="image is-64x64">
+                    <img src="static/wi-night-clear.svg" alt="Placeholder image" class="moon" />
                   </figure>
                 </div>
-                <div class="media-content">
-                  <p class="project-subtitle">Snowy - Discord Bot</p>
-                  <span class="tag is-dark">TypeScript</span>
-                  <span class="tag is-dark">Discord API</span>
+
+                <div class="media-content project-links">
+                  <a
+                    class="icon"
+                    href="https://prayertimes.netlify.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fas fa-external-link-alt fa-lg"></i>
+                  </a>
                 </div>
               </div>
+              <p class="project-subtitle">Prayer Times</p>
+              <div class="project-meta">
+                <span class="tag is-dark">React</span>
+                <span class="tag is-dark">Materia-UI</span>
+                <span class="tag is-dark">MapQuest API</span>
+              </div>
               <div class="project-body">
-                Simple bot written in TypeScript used for light moderation and minigames within
-                server. *Link will be added soon.
+                Web application to view current Islamic prayer times using React and Material-UI.
+                Uses GEOIP DB to automatically detect user location and the MapQuest Geocoding API
+                for manual location entry.
               </div>
             </article>
           </div>
 
-          <div class="tile is-parent">
+          <!-- Snowy Bot Project -->
+          <div class="tile is-parent is-4">
             <article class="tile is-child box gray-background move-up">
               <div class="media">
                 <div class="media-left">
-                  <figure class="image is-96x96">
-                    <i class="fas fa-code fa-3x"></i>
+                  <figure class="image is-64x64">
+                    <img src="static/snowy.png" alt="Placeholder image" />
                   </figure>
                 </div>
-                <div class="media-content">
-                  <p class="project-subtitle">Personal Website</p>
-                  <span class="tag is-dark">Bulma</span>
-                  <span class="tag is-dark">HTML</span>
-                  <span class="tag is-dark">CSS</span>
+                <div class="media-content project-links">
+                  <a
+                    class="icon"
+                    href="https://gitlab.com/jasonmustafa/snowy-bot"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-gitlab fa-lg"></i>
+                  </a>
                 </div>
+              </div>
+              <p class="project-subtitle">Snowy - Discord Bot</p>
+              <div class="project-meta">
+                <span class="tag is-dark">TypeScript</span>
+                <span class="tag is-dark">Discord API</span>
+              </div>
+              <div class="project-body">
+                Simple bot written in TypeScript used for light moderation and minigames within
+                server.
+              </div>
+            </article>
+          </div>
+
+          <!-- Personal Website Project -->
+          <div class="tile is-parent is-4">
+            <article class="tile is-child box gray-background move-up">
+              <div class="media">
+                <div class="media-left">
+                  <figure class="image is-64x64">
+                    <i class="fas fa-code fa-2x"></i>
+                  </figure>
+                </div>
+                <div class="media-content project-links">
+                  <a
+                    class="icon"
+                    href="https://www.jasonmustafa.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fas fa-external-link-alt fa-lg"></i>
+                  </a>
+                  <a
+                    class="icon"
+                    href="https://gitlab.com/jasonmustafa/website"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="fab fa-gitlab fa-lg"></i>
+                  </a>
+                </div>
+              </div>
+              <p class="project-subtitle">Personal Website</p>
+              <div class="project-meta">
+                <span class="tag is-dark">Bulma</span>
+                <span class="tag is-dark">HTML</span>
+                <span class="tag is-dark">CSS</span>
               </div>
               <div class="project-body">
                 Portfolio made using HTML and the Bulma CSS framework to showcase programming
@@ -250,6 +296,7 @@
       </div>
     </section>
 
+    <!-- Resume -->
     <section class="hero black-background">
       <div class="hero-body">
         <a
@@ -267,6 +314,7 @@
       </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer black-background">
       <div class="content has-text-centered">
         <div class="footer-text">

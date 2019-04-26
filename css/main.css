@@ -157,8 +157,17 @@ body {
 }
 .project-subtitle {
   font-family: 'Lato', sans-serif;
+  font-weight: bold;
   color: #fafafa;
   font-size: 20px;
+  text-align: left;
+  margin-bottom: 8px;
+}
+.project-links {
+  text-align: right;
+}
+.project-meta {
+  margin-bottom: 8px;
 }
 .project-body {
   font-family: 'Lato', sans-serif;
@@ -168,6 +177,13 @@ body {
 }
 .moon {
   filter: invert(68%) sepia(41%) saturate(345%) hue-rotate(218deg) brightness(92%) contrast(86%);
+}
+.fa-external-link-alt {
+  color: #f50057;
+  transition: all 0.5s;
+}
+.fa-external-link-alt:hover {
+  color: #f8bbd0;
 }
 
 /* 004 Resume */

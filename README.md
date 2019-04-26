@@ -1,6 +1,6 @@
 # Website
 
-Personal website.
+Personal website for showcasing programming projects.
 
 ## Built With
 

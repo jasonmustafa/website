@@ -8,7 +8,7 @@
       }
     },
     "color": {
-      "value": "#f8bbd0"
+      "value": "#7f5f6a"
     },
     "shape": {
       "type": "circle",
@@ -17,7 +17,7 @@
         "color": "#000000"
       },
       "polygon": {
-        "nb_sides": 5
+        "nb_sides": 6
       },
       "image": {
         "src": "img/github.svg",
@@ -36,7 +36,7 @@
       }
     },
     "size": {
-      "value": 3,
+      "value": 10,
       "random": true,
       "anim": {
         "enable": false,

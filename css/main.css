@@ -15,15 +15,15 @@ body {
   height: 100%;
 }
 .particles-container {
-  position:relative;
-  z-index:9999;
+  position: relative;
+  z-index: 9999;
 }
 #particles-js {
   position: fixed;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0);
-  background-image: url("");
+  background-image: url('');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -33,7 +33,7 @@ body {
   background-color: rgb(0, 0, 0, 0.25);
 }
 .gray-background {
-  background-color: rgb(24, 32, 48, .75);
+  background-color: rgb(24, 32, 48, 0.75);
 }
 .tile {
   padding: 20px;
@@ -191,12 +191,21 @@ body {
   background-color: #f50057;
   color: #fafafa;
   border-color: #f50057;
+  margin: 20px;
   transition: all 0.5s;
 }
 .resume-button:hover {
   background-color: #f8bbd0;
   color: #182030;
   border-color: #f8bbd0;
+}
+.li-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.LI-profile-badge {
+  text-align: left;
 }
 
 /* 005 Footer */

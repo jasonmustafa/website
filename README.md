@@ -1,6 +1,6 @@
-# Website
+# Personal Website
 
-Personal website for showcasing programming projects.
+Personal website for showcasing programming projects - [view here](https://www.jasonmustafa.com/)!
 
 ## Built With
 

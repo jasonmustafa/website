@@ -4,7 +4,8 @@
   "description": "Personal website",
   "main": "index.js",
   "dependencies": {
-    "bulma": "^0.7.4"
+    "bulma": "^0.7.4",
+    "bulma-extensions": "^6.2.7"
   },
   "devDependencies": {},
   "scripts": {

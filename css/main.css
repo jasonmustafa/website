@@ -134,6 +134,18 @@ body {
   color: #fafafa;
   font-size: 18px;
 }
+.timeline-text-heading {
+  font-family: 'Lato', sans-serif;
+  color: #bdbdbd;
+  text-align: left;
+}
+.timeline-text-body {
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+}
+.timeline-tags {
+  text-align: left;
+}
 .fa-code {
   color: #f50057;
   margin: 20px;

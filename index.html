@@ -6,14 +6,23 @@
     <meta name="theme-color" content="#000000" />
     <title>Jason Mustafa</title>
     <!-- Bulma -->
+    <link rel="stylesheet" href="/node_modules/bulma/css/bulma.min.css" />
+
+    <!-- Bulma Timeline -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css"
+      href="/node_modules/bulma-extensions/bulma-timeline/dist/css/bulma-timeline.min.css"
     />
     <!-- FontAwesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
     <!-- Lato font -->
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/keyframes.css" />
     <link rel="stylesheet" href="css/main.css" />
   </head>
@@ -24,17 +33,10 @@
     <script src="particles.js"></script>
 
     <script>
-      particlesJS.load('particles-js', 'particles.json', function() {
-        console.log('particles.json loaded.');
+      particlesJS.load("particles-js", "particles.json", function() {
+        console.log("particles.json loaded.");
       });
     </script>
-
-    <script
-      type="text/javascript"
-      src="https://platform.linkedin.com/badges/js/profile.js"
-      async
-      defer
-    ></script>
 
     <div class="particles-container">
       <!-- Start -->
@@ -104,10 +106,11 @@
               About Me
             </h1>
             <h2 class="about-me-body">
-              Hello! I'm Jason, a computer science student at Rutgers University - New Brunswick,
-              NJ. I'm currently finishing my undergraduate studies and looking for
-              internships/co-ops to develop my programming skills and advance my professional
-              career. I created this website to showcase projects I work on as I learn new
+              Hello! I'm Jason, a computer science student at Rutgers University
+              - New Brunswick, NJ. I'm currently finishing my undergraduate
+              studies and looking for internships/co-ops to develop my
+              programming skills and advance my professional career. I created
+              this website to showcase projects I work on as I learn new
               technologies.
             </h2>
           </div>
@@ -208,6 +211,47 @@
             </article>
           </div>
         </div>
+
+        <div class="timeline is-centered">
+          <header class="timeline-header">
+            <span class="tag is-medium is-primary">2020</span>
+          </header>
+          <div class="timeline-item is-primary">
+            <div class="timeline-marker is-primary"></div>
+            <div class="timeline-content">
+              <p class="heading timeline-text-heading">June 2019 - Present</p>
+              <p class="timeline-text-body">Software Engineering Intern @ The VMC Group</p>
+              <div class="timeline-tags">
+                <span class="tag is-dark">TypeScript</span>
+                <span class="tag is-dark">three.js</span>
+              </div>
+            </div>
+          </div>
+          <div class="timeline-item is-warning">
+            <div class="timeline-marker is-warning is-image is-32x32">
+              <img src="http://bulma.io/images/placeholders/32x32.png" alt="" />
+            </div>
+            <div class="timeline-content">
+              <p class="heading">February 2016</p>
+              <p>Timeline content - Can include any HTML element</p>
+            </div>
+          </div>
+          <header class="timeline-header">
+            <span class="tag is-primary">2019</span>
+          </header>
+          <div class="timeline-item is-danger">
+            <div class="timeline-marker is-danger is-icon">
+              <i class="fa fa-flag"></i>
+            </div>
+            <div class="timeline-content">
+              <p class="heading">March 2017</p>
+              <p>Timeline content - Can include any HTML element</p>
+            </div>
+          </div>
+          <header class="timeline-header">
+            <span class="tag is-medium is-primary">2018</span>
+          </header>
+        </div>
       </section>
 
       <!-- Projects -->
@@ -224,7 +268,11 @@
                 <div class="media">
                   <div class="media-left">
                     <figure class="image is-64x64">
-                      <img src="static/wi-night-clear.svg" alt="Placeholder image" class="moon" />
+                      <img
+                        src="static/wi-night-clear.svg"
+                        alt="Placeholder image"
+                        class="moon"
+                      />
                     </figure>
                   </div>
 
@@ -246,9 +294,10 @@
                   <span class="tag is-dark">MapQuest API</span>
                 </div>
                 <div class="project-body">
-                  Web application to view current Islamic prayer times using React and Material-UI.
-                  Uses GEOIP DB to automatically detect user location and the MapQuest Geocoding API
-                  for manual location entry.
+                  Web application to view current Islamic prayer times using
+                  React and Material-UI. Uses GEOIP DB to automatically detect
+                  user location and the MapQuest Geocoding API for manual
+                  location entry.
                 </div>
               </article>
             </div>
@@ -279,8 +328,8 @@
                   <span class="tag is-dark">Discord API</span>
                 </div>
                 <div class="project-body">
-                  Simple bot written in TypeScript used for light moderation and minigames within
-                  server.
+                  Simple bot written in TypeScript used for light moderation and
+                  minigames within server.
                 </div>
               </article>
             </div>
@@ -320,8 +369,8 @@
                   <span class="tag is-dark">CSS</span>
                 </div>
                 <div class="project-body">
-                  Portfolio made using HTML and the Bulma CSS framework to showcase programming
-                  projects.
+                  Portfolio made using HTML and the Bulma CSS framework to
+                  showcase programming projects.
                 </div>
               </article>
             </div>
@@ -354,7 +403,12 @@
             Designed by Jason Mustafa.
           </div>
           <a href="https://bulma.io" target="_blank" rel="noopener noreferrer">
-            <img src="/static/made-with-bulma.png" alt="Made with Bulma" width="128" height="24" />
+            <img
+              src="/static/made-with-bulma.png"
+              alt="Made with Bulma"
+              width="128"
+              height="24"
+            />
           </a>
         </div>
       </footer>

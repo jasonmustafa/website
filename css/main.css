@@ -139,12 +139,21 @@ body {
   color: #9e9e9e;
   text-align: left;
 }
-.timeline-text-body {
+.timeline-text-body-left {
   font-family: 'Lato', sans-serif;
   color: #fafafa;
-}
-.timeline-tags {
   text-align: left;
+}
+.timeline-text-body-right {
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+  text-align: right;
+}
+.timeline-tags-left {
+  text-align: left;
+}
+.timeline-tags-right {
+  text-align: right;
 }
 .fa-code {
   color: #f50057;

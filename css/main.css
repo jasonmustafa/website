@@ -82,11 +82,11 @@ body {
 .fa-linkedin:hover {
   color: #f8bbd0;
 }
-.fa-gitlab {
+.fa-github {
   color: #f50057;
   transition: all 0.5s;
 }
-.fa-gitlab:hover {
+.fa-github:hover {
   color: #f8bbd0;
 }
 .fa-hands-helping {

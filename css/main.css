@@ -134,10 +134,18 @@ body {
   color: #fafafa;
   font-size: 18px;
 }
-.timeline-text-heading {
+.skills-item {
+  padding: 5px 5px;
+}
+.timeline-text-heading-left {
   font-family: 'Lato', sans-serif;
   color: #9e9e9e;
   text-align: left;
+}
+.timeline-text-heading-right {
+  font-family: 'Lato', sans-serif;
+  color: #9e9e9e;
+  text-align: right;
 }
 .timeline-text-body-left {
   font-family: 'Lato', sans-serif;

@@ -134,6 +134,9 @@ body {
   color: #fafafa;
   font-size: 18px;
 }
+.tag {
+  font-family: 'Lato', sans-serif;
+}
 .skills-item {
   padding: 5px 5px;
 }
@@ -219,7 +222,7 @@ body {
 /* 004 Resume */
 .resume-button {
   background-color: #f50057;
-  color: #fafafa;
+  color: #000000;
   border-color: #f50057;
   margin: 20px;
   transition: all 0.5s;
@@ -243,4 +246,10 @@ body {
   font-family: 'Lato', sans-serif;
   color: #fafafa;
   font-size: 14px;
+}
+.footer-name {
+  font-family: 'Lato', sans-serif;
+  color: #f50057;
+  font-size: 14px;
+  font-weight: bold;
 }

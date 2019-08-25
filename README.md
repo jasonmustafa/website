@@ -5,6 +5,8 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/88ba5585-8cf4-489d-973c-d92b7a010632/deploy-status)](https://app.netlify.com/sites/jasonmustafa/deploys)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+---
+
 ## Installation
 
 ### Clone

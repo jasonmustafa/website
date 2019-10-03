@@ -29,11 +29,12 @@ body {
   background-position: 50% 50%;
 }
 
-.black-background {
-  background-color: rgb(0, 0, 0, 0.25);
-}
 .gray-background {
-  background-color: rgb(38, 50, 56, 0.75);
+  background-color: rgb(38, 50, 56, 0.5);
+}
+.transparent-background {
+  background-color: rgb(0, 0, 0, 0);
+  box-shadow: none;
 }
 .tile {
   padding: 20px;

@@ -240,6 +240,14 @@ body {
 .fa-moon:hover {
   color: #f8bbd0;
 }
+.fa-dollar-sign {
+  color: #f50057;
+  margin-top: 12px;
+  transition: all 0.5s;
+}
+.fa-dollar-sign:hover {
+  color: #f8bbd0;
+}
 .fa-discord {
   color: #f50057;
   margin-top: 12px;

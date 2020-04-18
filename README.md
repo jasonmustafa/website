@@ -23,6 +23,7 @@
 
 - [Bulma](https://bulma.io) - CSS Framework
 - [Animate.css](https://daneden.github.io/animate.css) - CSS Animation Library
+- [Font Awesome](https://fontawesome.com/) - Icons
 
 ---
 

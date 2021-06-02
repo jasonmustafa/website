@@ -10,41 +10,31 @@
 /* 000 General */
 html,
 body {
-  background-color: rgb(0, 0, 0);
   text-align: center;
+  background-color: rgb(18, 18, 18);
+  /* background-color: gray; */
   height: 100%;
-}
-.particles-container {
-  position: relative;
-  z-index: 9999;
-}
-#particles-js {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0);
-  background-image: url('');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
 }
 
 .gray-background {
   background-color: rgb(38, 50, 56, 0.5);
 }
+
 .transparent-background {
   background-color: rgb(0, 0, 0, 0);
   box-shadow: none;
 }
+
+.reveal {
+  opacity: 0;
+  visibility: hidden;
+  transition: transform 0s;
+}
+
 .tile {
   padding: 20px;
 }
-.move-up {
-  transition: all 0.2s ease-in-out;
-}
-.move-up:hover {
-  transform: translateY(-10px);
-}
+
 .tag {
   margin-top: 2px;
   margin-bottom: 2px;
@@ -62,10 +52,6 @@ body {
   color: #f50057;
   font-size: 32px;
   letter-spacing: 4px;
-  transition: all 0.5s;
-}
-.name:hover {
-  color: #f8bbd0;
 }
 .avatar {
   width: 192px;
@@ -117,8 +103,9 @@ body {
   color: #f50057;
   font-size: 32px;
   font-weight: bold;
-  padding: 20px;
+  padding: 10px;
 }
+
 .main-subtitle {
   font-family: 'Lato', sans-serif;
   color: #fafafa;
@@ -140,7 +127,9 @@ body {
   font-family: 'Lato', sans-serif;
   color: #fafafa;
   font-size: 18px;
+  padding: 10px;
 }
+
 .tag {
   font-family: 'Lato', sans-serif;
 }
@@ -184,6 +173,26 @@ body {
 .fa-project-diagram {
   color: #f50057;
   margin: 20px;
+}
+.timeline-amazon-icon {
+  float: left;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+.timeline-amazon-text-container {
+  display: flex;
+  font-family: 'Lato', sans-serif;
+  color: #fafafa;
+  text-align: left;
+}
+.timeline-amazon-color {
+  color: #ffad33;
+}
+.rutgers {
+  color: #ff3366;
+}
+.vmc {
+  color: #ffd100;
 }
 
 /* 003 Projects */

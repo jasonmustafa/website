@@ -13,7 +13,7 @@
  * Copyright (c) 2018 Daniel Eden
 */
 
-@-webkit-keyframes fadeIn {
+/* @-webkit-keyframes fadeIn {
   from {
     opacity: 0;
   }
@@ -160,4 +160,4 @@
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
   animation-duration: 2s;
-}
+} */

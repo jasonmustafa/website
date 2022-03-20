@@ -11,9 +11,59 @@
 html,
 body {
   text-align: center;
-  background-color: rgb(18, 18, 18);
-  /* background-color: gray; */
+  font-family: 'Lato', sans-serif;
+  background-color: #293241;
   height: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.slate {
+  color: #2b2d42;
+}
+.bluebell {
+  color: #8d99ae;
+}
+.white {
+  color: #edf2f4;
+}
+.red {
+  color: #EE6C4D;
+}
+.crimson {
+  color: #d90429;
+}
+.java-color {
+  color: #f29111;
+}
+.python-color {
+  color: #ffcd3a;
+}
+.c-color {
+  color: #659bd3;
+}
+.js-color {
+  color: #f5de19;
+}
+.react-color {
+  color: #61dbfb;
+}
+.html-color {
+  color: #e54c21;
+}
+.css-color {
+  color: #264de4;
+}
+.amazon-color {
+  color: #ffad33;
+}
+.rutgers-color {
+  color: #ff3366;
+}
+.vmc-color {
+  color: #ffd100;
 }
 
 .gray-background {
@@ -42,14 +92,12 @@ body {
 
 /* 001 Start */
 .hi {
-  color: #fafafa;
   font-family: 'Lato', sans-serif;
   font-size: 24px;
 }
 .name {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  color: #f50057;
   font-size: 32px;
   letter-spacing: 4px;
 }
@@ -59,8 +107,11 @@ body {
   margin: auto;
   padding: 20px;
 }
+.round {
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.75rem #191d24);
+}
 .intro {
-  color: #fafafa;
   font-family: 'Lato', sans-serif;
   font-size: 20px;
   margin: 16px;
@@ -69,38 +120,33 @@ body {
   margin: 16px 12px 16px 12px;
 }
 .fa-linkedin {
-  color: #f50057;
   transition: all 0.5s;
 }
 .fa-linkedin:hover {
-  color: #f8bbd0;
+  color: #ef233c;
 }
 .fa-github {
-  color: #f50057;
   transition: all 0.5s;
 }
 .fa-github:hover {
-  color: #f8bbd0;
+  color: #ef233c;
 }
 .fa-hands-helping {
-  color: #f50057;
   transition: all 0.5s;
 }
 .fa-hands-helping:hover {
-  color: #f8bbd0;
+  color: #ef233c;
 }
 .fa-telegram-plane {
-  color: #f50057;
   transition: all 0.5s;
 }
 .fa-telegram-plane:hover {
-  color: #f8bbd0;
+  color: #ef233c;
 }
 
 /* 002 About */
 .main-title {
   font-family: 'Lato', sans-serif;
-  color: #f50057;
   font-size: 32px;
   font-weight: bold;
   padding: 10px;
@@ -108,24 +154,20 @@ body {
 
 .main-subtitle {
   font-family: 'Lato', sans-serif;
-  color: #fafafa;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 .main-body {
   font-family: 'Lato', sans-serif;
-  color: #fafafa;
   font-size: 18px;
 }
 .main-body-small {
   font-family: 'Lato', sans-serif;
-  color: #fafafa;
   font-size: 14px;
 }
 .about-me-body {
   font-family: 'Lato', sans-serif;
-  color: #fafafa;
   font-size: 18px;
   padding: 10px;
 }
@@ -134,6 +176,7 @@ body {
   font-family: 'Lato', sans-serif;
 }
 .skills-item {
+  font-family: 'Lato', sans-serif;
   padding: 5px 5px;
 }
 .timeline-text-heading-left {
@@ -148,6 +191,7 @@ body {
 }
 .timeline-text-body-left {
   font-family: 'Lato', sans-serif;
+  font-size: 16px;
   color: #fafafa;
   text-align: left;
 }
@@ -163,15 +207,12 @@ body {
   text-align: right;
 }
 .fa-code {
-  color: #f50057;
   margin: 20px;
 }
 .fa-briefcase {
-  color: #f50057;
   margin: 20px;
 }
 .fa-project-diagram {
-  color: #f50057;
   margin: 20px;
 }
 .timeline-amazon-icon {
@@ -182,17 +223,9 @@ body {
 .timeline-amazon-text-container {
   display: flex;
   font-family: 'Lato', sans-serif;
+  font-size: 16px;
   color: #fafafa;
   text-align: left;
-}
-.timeline-amazon-color {
-  color: #ffad33;
-}
-.rutgers {
-  color: #ff3366;
-}
-.vmc {
-  color: #ffd100;
 }
 
 /* 003 Projects */

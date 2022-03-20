@@ -1,3 +1,6 @@
+// var scene = document.getElementById('scene');
+// var parallaxInstance = new Parallax(scene);
+
 /**
  * Animate an element from a calculated position to its assigned position.
  * 

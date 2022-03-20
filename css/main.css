@@ -10,10 +10,25 @@
 /* 000 General */
 html,
 body {
-  text-align: center;
-  font-family: 'Lato', sans-serif;
+  /* text-align: center; */
+  /* font-family: 'Lato', sans-serif; */
   background-color: #293241;
   height: 100%;
+}
+
+.particles-container {
+  position: relative;
+  z-index: 9999;
+}
+#particles-js {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0);
+  background-image: url('');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 }
 
 .bold {
@@ -92,13 +107,12 @@ body {
 
 /* 001 Start */
 .hi {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 24px;
 }
 .name {
   font-family: 'Lato', sans-serif;
   font-weight: bold;
-  font-size: 32px;
   letter-spacing: 4px;
 }
 .avatar {
@@ -112,7 +126,7 @@ body {
   filter: drop-shadow(0 0 0.75rem #191d24);
 }
 .intro {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-size: 20px;
   margin: 16px;
 }

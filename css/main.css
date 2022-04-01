@@ -7,13 +7,25 @@
  * 005 - Footer
 **/
 
+/* Color Palette - https://coolors.co/2b2d42-8d99ae-edf2f4-ef233c-d90429 */
+
 /* 000 General */
+:root {
+  --space-cadet: #2b2d42;
+  --manatee: #8d99ae;
+  --cultured: #edf2f4;
+  --imperial-red: #ef233c;
+  --amaranth-red: #d90429;
+}
+
 html,
 body {
   /* text-align: center; */
   /* font-family: 'Lato', sans-serif; */
-  background-color: #293241;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--space-cadet);
   height: 100%;
+  overflow-x: hidden;
 }
 
 .particles-container {
@@ -24,8 +36,7 @@ body {
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0);
-  background-image: url('');
+  background-color: var(--space-cadet);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -44,9 +55,9 @@ body {
 .white {
   color: #edf2f4;
 }
-.red {
-  color: #EE6C4D;
-}
+/* .red {
+  color: #EDF2F4;
+} */
 .crimson {
   color: #d90429;
 }
@@ -108,12 +119,14 @@ body {
 /* 001 Start */
 .hi {
   font-family: 'Inter', sans-serif;
-  font-size: 24px;
+  /* font-size: 24px; */
+  color: var(--imperial-red);
 }
 .name {
   font-family: 'Lato', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   letter-spacing: 4px;
+  color: var(--cultured);
 }
 .avatar {
   width: 192px;
@@ -128,7 +141,7 @@ body {
 .intro {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
-  margin: 16px;
+  color: var(--manatee);
 }
 .icon-margin {
   margin: 16px 12px 16px 12px;
@@ -137,25 +150,25 @@ body {
   transition: all 0.5s;
 }
 .fa-linkedin:hover {
-  color: #ef233c;
+  color: var(--amaranth-red);
 }
 .fa-github {
   transition: all 0.5s;
 }
 .fa-github:hover {
-  color: #ef233c;
+  color: var(--amaranth-red);
 }
 .fa-hands-helping {
   transition: all 0.5s;
 }
 .fa-hands-helping:hover {
-  color: #ef233c;
+  color: var(--amaranth-red);
 }
 .fa-telegram-plane {
   transition: all 0.5s;
 }
 .fa-telegram-plane:hover {
-  color: #ef233c;
+  color: var(--amaranth-red);
 }
 
 /* 002 About */

@@ -1,6 +1,3 @@
-// var scene = document.getElementById('scene');
-// var parallaxInstance = new Parallax(scene);
-
 /**
  * Animate an element from a calculated position to its assigned position.
  * 
@@ -68,13 +65,13 @@ function animateTo(elem, direction) {
     y = 0;
   }
 
-  if (elem.classList.contains('delay-one')) {
-    delay += 0.1;
-  } else if (elem.classList.contains('delay-two')) {
-    delay += 0.2;
-  } else if (elem.classList.contains('delay-three')) {
-    delay += 0.3;
-  }
+  // if (elem.classList.contains('delay-one')) {
+  //   delay += 0.1;
+  // } else if (elem.classList.contains('delay-two')) {
+  //   delay += 0.2;
+  // } else if (elem.classList.contains('delay-three')) {
+  //   delay += 0.3;
+  // }
 
   gsap.fromTo(
     elem,
@@ -111,8 +108,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     ScrollTrigger.create({
       trigger: elem,
-      start: "top 90%",
-      end: "bottom 10%",
+      start: "bottom 90%",
+      end: "top 10%",
+      // markers: true,
       onEnter: function () {
         animateFrom(elem);
       },

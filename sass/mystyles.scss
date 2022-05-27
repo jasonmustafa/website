@@ -1,0 +1,71 @@
+@charset "utf-8";
+
+// Import a Google Font
+// @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+// color theme
+$space-cadet: #2b2d42;
+$manatee: #8d99ae;
+$cultured: #edf2f4;
+$imperial-red: #ef233c;
+$amaranth-red: #d90429;
+
+// global variables
+$family-sans-serif: 'Inter', sans-serif;
+$family-secondary: 'Lato', sans-serif;
+$family-monospace: 'JetBrains Mono', monospace;
+$light: $manatee;
+$dark: $space-cadet;
+$primary: $cultured;
+$warning: $imperial-red;
+
+// component variables
+$text: $cultured;
+$strong-color: $cultured;
+$body-background-color: $dark;
+$title-color: $imperial-red;
+$subtitle-color: $cultured;
+
+// brand colors
+$salesforce-blue: #00a1e0;
+
+// modules
+@import '../node_modules/bulma/sass/utilities/_all.sass';
+@import '../node_modules/bulma/sass/base/_all.sass';
+@import '../node_modules/bulma/sass/helpers/_all.sass';
+
+@import '../node_modules/bulma/sass/elements/other.sass';
+@import '../node_modules/bulma/sass/elements/button.sass';
+@import '../node_modules/bulma/sass/elements/container.sass';
+@import '../node_modules/bulma/sass/elements/icon.sass';
+@import '../node_modules/bulma/sass/elements/tag.sass';
+@import '../node_modules/bulma/sass/elements/title.sass';
+@import '../node_modules/bulma/sass/components/level.sass';
+@import '../node_modules/bulma/sass/grid/_all.sass';
+@import '../node_modules/bulma/sass/layout/_all.sass';
+@import '../node_modules/bulma/sass/layout/hero.sass';
+
+@import '../node_modules/bulma-timeline/dist/css/bulma-timeline.sass';
+
+.is-manatee {
+  color: $manatee;
+}
+
+.is-amaranth-red {
+  color: $amaranth-red;
+}
+
+.is-salesforce-blue {
+  color: $salesforce-blue;
+}
+
+.tag {
+  background-color: $manatee !important;
+}
+
+// .is-test {
+//   letter-spacing: 0.1em;
+// }

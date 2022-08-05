@@ -8,7 +8,10 @@
     <title>Jason Mustafa</title>
 
     <!-- Bulma -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
 
     <!-- Bulma Timeline -->
     <link rel="stylesheet" href="css/bulma-timeline.min.css" />
@@ -18,7 +21,10 @@
 
     <!-- FontAwesome -->
     <!-- <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script> -->
-    <script src="https://kit.fontawesome.com/716eac212d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/716eac212d.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Lato font - 700, 900 -->
     <!-- <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" /> -->
@@ -32,7 +38,10 @@
     <!-- Inter font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="css/keyframes.css" />
     <link rel="stylesheet" href="css/main.css" />
@@ -56,27 +65,27 @@
     <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.42.4/tsparticles.min.js"></script>
 
     <script>
-      tsParticles.loadJSON('test123', 'particles.json').then(function (p) {
+      tsParticles.loadJSON('particles', 'particles.json').then(function (p) {
         // p is the loaded container, for using it later
         console.log('callback - particles.js config loaded');
       });
     </script>
 
     <div class="particles-container">
-      <!-- <div id="scene"> -->
+      <div id="particles"></div>
+
       <!-- Start -->
       <section class="hero transparent-background is-fullheight">
         <div class="hero-body">
           <div class="container is-max-desktop">
             <h5 class="subtitle hi reveal from-left">Hi! My name is</h5>
-            <h1 class="title name is-size-1 red reveal from-left">JASON MUSTAFA</h1>
+            <h1 class="title name is-size-1 reveal from-left">JASON MUSTAFA</h1>
 
-            <div id="test123"></div>
-
-            <p class="intro white reveal from-right">
-              I'm a new grad pursuing a career in software development. My interests in software its
-              constantly evolving technologies continue to grow, and I love being a part of any
-              discussions surrounding them. Feel free to get in touch with me!
+            <p class="intro reveal from-right">
+              I'm a new grad pursuing a career in
+              <strong class="intro-bold">software development!</strong> I'm
+              currently expanding my engineering and development skills at
+              <strong class="salesforce-color">Salesforce</strong>.
             </p>
 
             <div class="is-container level-item reveal from-right">
@@ -104,14 +113,6 @@
               >
                 <i class="fas fa-hands-helping fa-2x"></i>
               </a>
-              <a
-                class="icon bluebell icon-margin"
-                href="https://telegram.me/jasonmustafa"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <i class="fab fa-telegram-plane fa-2x"></i>
-              </a>
             </div>
 
             <!-- <figure class="image avatar reveal">
@@ -127,13 +128,25 @@
           <div class="container">
             <h1 class="main-title red reveal from-left">About Me</h1>
             <p class="about-me-body reveal from-right">
-              Hello! I'm Jason, a recent graduate from Rutgers University - New Brunswick, where I
-              studied computer science and mathematics. I am very passionate about software
-              development and try to keep up with the latest trends in this space. I have been
-              privileged to work at leading companies in tech, including Amazon, where I worked as a
-              Software Development Engineering Intern, and Salesforce, where I currently work as a
-              Marketing Cloud Support Engineer II. I am enjoying continuing to learn and improve my
-              skills as an engineer while exploring a career in software development.
+              Hello! I'm Jason, a recent graduate from Rutgers University - New
+              Brunswick, where I studied computer science and mathematics.
+            </p>
+
+            <p class="about-me-body reveal from-right">
+              I am lucky to have worked at leading tech companies, including
+              Salesforce, where I currently work as a Developer Support Engineer
+              II, and Amazon, where I worked as a Software Development Engineer
+              (SDE) Intern.
+            </p>
+
+            <p class="about-me-body reveal from-right">
+              My experience is primarily in Java and JavaScript, although I have
+              recently dabbled in Python as well!
+            </p>
+
+            <p class="about-me-body reveal from-right">
+              I am enjoying continuing to learn and improve my skills as an
+              engineer while exploring a career in software development.
             </p>
           </div>
         </div>
@@ -142,30 +155,36 @@
           <!-- Languages -->
           <div class="tile is-parent is-3">
             <article class="tile is-child box transparent-background">
-              <div class="reveal from-left">
-                <i class="red fas fa-code fa-2x"></i>
-              </div>
-              <div class="main-subtitle white reveal from-left">Languages</div>
-              <div class="main-body skills-item white reveal from-left">
-                <i class="java-color fab fa-java"></i>&nbsp;Java
-              </div>
-              <div class="main-body skills-item white reveal from-left">
-                <i class="python-color fab fa-python"></i>&nbsp;Python
-              </div>
-              <div class="main-body skills-item white reveal from-left">
-                <i class="c-color fab fa-linux"></i>&nbsp;C
-              </div>
-              <div class="main-body skills-item white reveal from-left">
-                <i class="js-color fab fa-js-square"></i>&nbsp;JavaScript
-              </div>
-              <div class="main-body skills-item white reveal from-left">
-                <i class="react-color fab fa-react"></i>&nbsp;React
-              </div>
-              <div class="main-body skills-item white reveal from-left">
-                <i class="html-color fab fa-html5"></i>&nbsp;HTML
-              </div>
-              <div class="main-body skills-item white reveal from-left">
-                <i class="css-color fab fa-css3"></i>&nbsp;CSS
+              <div class="skills-container">
+                <div class="languages-icon reveal from-left">
+                  <i class="red fas fa-code fa-2x"></i>
+                </div>
+                <div class="main-subtitle languages-icon reveal from-left">
+                  Languages
+                </div>
+                <div class="languages">
+                  <div class="main-body skills-item reveal from-left">
+                    <i class="java-color fab fa-java"></i>&nbsp;Java
+                  </div>
+                  <div class="main-body skills-item reveal from-left">
+                    <i class="python-color fab fa-python"></i>&nbsp;Python
+                  </div>
+                  <div class="main-body skills-item reveal from-left">
+                    <i class="js-color fab fa-js-square"></i>&nbsp;JavaScript
+                  </div>
+                  <div class="main-body skills-item reveal from-left">
+                    <i class="c-color fab fa-linux"></i>&nbsp;C
+                  </div>
+                  <div class="main-body skills-item reveal from-left">
+                    <i class="react-color fab fa-react"></i>&nbsp;React
+                  </div>
+                  <div class="main-body skills-item reveal from-left">
+                    <i class="html-color fab fa-html5"></i>&nbsp;HTML
+                  </div>
+                  <div class="main-body skills-item reveal from-left">
+                    <i class="css-color fab fa-css3"></i>&nbsp;CSS
+                  </div>
+                </div>
               </div>
             </article>
           </div>
@@ -173,11 +192,17 @@
           <!-- Experience -->
           <div class="tile is-parent is-6">
             <article class="tile is-child box transparent-background">
-              <div class="reveal">
-                <i class="red fas fa-briefcase fa-2x"></i>
+              <div class="skills-container">
+                <div class="languages-icon reveal from-left">
+                  <div class="reveal from-left">
+                    <i class="red fas fa-briefcase fa-2x"></i>
+                  </div>
+                  <div class="main-subtitle languages-icon reveal from-left">
+                    Experience
+                  </div>
+                </div>
               </div>
 
-              <div class="main-subtitle white reveal">Experience</div>
               <div class="timeline is-centered skills-item">
                 <header class="timeline-header reveal">
                   <span class="tag is-medium is-dark">2020</span>
@@ -186,10 +211,18 @@
                 <div class="timeline-item reveal from-right">
                   <div class="timeline-marker is-light"></div>
                   <div class="timeline-content">
-                    <p class="heading timeline-text-heading-left">Jul 2020 - Sep 2020</p>
-                    <i class="fab fa-amazon fa-2x timeline-amazon-icon amazon-color"></i>
-                    <p class="amazon-color timeline-text-body-left">SDE Intern</p>
-                    <p class="amazon-color timeline-amazon-text-container">@&nbsp;Amazon</p>
+                    <p class="heading timeline-text-heading-left">
+                      Jul 2020 - Sep 2020
+                    </p>
+                    <i
+                      class="fab fa-amazon fa-2x timeline-amazon-icon amazon-color"
+                    ></i>
+                    <p class="amazon-color timeline-text-body-left">
+                      SDE Intern
+                    </p>
+                    <p class="amazon-color timeline-amazon-text-container">
+                      @&nbsp;Amazon
+                    </p>
                     <!-- https://www.aboutamazon.com/ -->
                     <div class="timeline-tags-left">
                       <span class="tag is-dark">Java</span>
@@ -203,10 +236,15 @@
                 <div class="timeline-item reveal from-left">
                   <div class="timeline-marker is-light"></div>
                   <div class="timeline-content">
-                    <p class="heading timeline-text-heading-right">May 2019 - May 2020</p>
-                    <p class="timeline-text-body-right">Computer Lab Consultant</p>
+                    <p class="heading timeline-text-heading-right">
+                      May 2019 - May 2020
+                    </p>
                     <p class="timeline-text-body-right">
-                      @ <span class="rutgers">Rutgers OIT</span>
+                      Computer Lab Consultant
+                    </p>
+                    <p class="timeline-text-body-right">
+                      @
+                      <span class="rutgers">Rutgers OIT</span>
                     </p>
                   </div>
                 </div>
@@ -214,9 +252,15 @@
                 <div class="timeline-item reveal from-right">
                   <div class="timeline-marker is-light"></div>
                   <div class="timeline-content">
-                    <p class="heading timeline-text-heading-left">Jun 2019 - Present</p>
-                    <p class="timeline-text-body-left">Software Engineering Intern</p>
-                    <p class="timeline-text-body-left">@ <span class="vmc">VMC Group</span></p>
+                    <p class="heading timeline-text-heading-left">
+                      Jun 2019 - Present
+                    </p>
+                    <p class="timeline-text-body-left">
+                      Software Engineering Intern
+                    </p>
+                    <p class="timeline-text-body-left">
+                      @ <span class="vmc">VMC Group</span>
+                    </p>
                     <div class="timeline-tags-left">
                       <span class="tag is-dark">JavaScript</span>
                       <span class="tag is-dark">Angular</span>
@@ -234,9 +278,15 @@
                 <div class="timeline-item reveal from-left">
                   <div class="timeline-marker is-light"></div>
                   <div class="timeline-content">
-                    <p class="heading timeline-text-heading-right">May 2018 - Aug 2018</p>
-                    <p class="timeline-text-body-right">Frontend Development Intern</p>
-                    <p class="timeline-text-body-right">@ <span class="vmc">VMC Group</span></p>
+                    <p class="heading timeline-text-heading-right">
+                      May 2018 - Aug 2018
+                    </p>
+                    <p class="timeline-text-body-right">
+                      Frontend Development Intern
+                    </p>
+                    <p class="timeline-text-body-right">
+                      @ <span class="vmc">VMC Group</span>
+                    </p>
                     <div class="timeline-tags-right">
                       <span class="tag is-dark">React</span>
                       <span class="tag is-dark">JavaScript</span>
@@ -248,10 +298,13 @@
                 <div class="timeline-item reveal from-right">
                   <div class="timeline-marker is-light"></div>
                   <div class="timeline-content">
-                    <p class="heading timeline-text-heading-left">Feb 2018 - May 2018</p>
+                    <p class="heading timeline-text-heading-left">
+                      Feb 2018 - May 2018
+                    </p>
                     <p class="timeline-text-body-left">Peer Mentor</p>
                     <p class="timeline-text-body-left">
-                      @ <span class="rutgers">Rutgers School of Engineering</span>
+                      @
+                      <span class="rutgers">Rutgers School of Engineering</span>
                     </p>
                   </div>
                 </div>
@@ -259,10 +312,15 @@
                 <div class="timeline-item reveal from-left">
                   <div class="timeline-marker is-light"></div>
                   <div class="timeline-content">
-                    <p class="heading timeline-text-heading-right">Aug 2017 - May 2018</p>
+                    <p class="heading timeline-text-heading-right">
+                      Aug 2017 - May 2018
+                    </p>
                     <p class="timeline-text-body-right">Academic Leader</p>
                     <p class="timeline-text-body-right">
-                      @ <span class="rutgers">Rutgers University Student Affairs</span>
+                      @
+                      <span class="rutgers"
+                        >Rutgers University Student Affairs</span
+                      >
                     </p>
                   </div>
                 </div>
@@ -282,18 +340,22 @@
               </div>
               <div class="main-subtitle reveal from-right">Software</div>
               <div class="main-body skills-item reveal from-right">
-                <i class="fab fa-git-alt fa-x"></i>Git
+                Git<i class="fab fa-git-alt fa-x"></i>
               </div>
               <div class="main-body skills-item reveal from-right">
-                <i class="fab fa-aws"></i>AWS
+                AWS<i class="fab fa-aws"></i>
               </div>
               <div class="main-body skills-item reveal from-right">
-                <i class="fab fa-node"></i>Node.js
+                Node.js<i class="fab fa-node"></i>
               </div>
               <div class="main-body skills-item reveal from-right">Eclipse</div>
-              <div class="main-body skills-item reveal from-right">Intellij</div>
+              <div class="main-body skills-item reveal from-right">
+                Intellij
+              </div>
               <div class="main-body skills-item reveal from-right">PyCharm</div>
-              <div class="main-body skills-item reveal from-right">three.js</div>
+              <div class="main-body skills-item reveal from-right">
+                three.js
+              </div>
               <div class="main-body skills-item reveal from-right">pdfmake</div>
             </article>
           </div>
@@ -325,8 +387,9 @@
                   <span class="tag is-dark">CSS</span>
                 </div>
                 <div class="project-body">
-                  Mock train line database system featuring user/employee authentication and
-                  reservation querying, booking, and management
+                  Mock train line database system featuring user/employee
+                  authentication and reservation querying, booking, and
+                  management
                 </div>
               </article>
             </div>
@@ -367,8 +430,8 @@
                   <span class="tag is-dark">MapQuest API</span>
                 </div>
                 <div class="project-body">
-                  Progressive web app to view current Islamic prayer timesusing React and the
-                  MapQuest geolocation API
+                  Progressive web app to view current Islamic prayer timesusing
+                  React and the MapQuest geolocation API
                 </div>
               </article>
             </div>
@@ -389,7 +452,8 @@
                   <span class="tag is-dark">Machine Learning</span>
                 </div>
                 <div class="project-body">
-                  ​One-shot machine learning algorithm written in ​C​ to estimate house prices
+                  ​One-shot machine learning algorithm written in ​C​ to
+                  estimate house prices
                 </div>
               </article>
             </div>
@@ -412,7 +476,8 @@
                   <span class="tag is-dark">Discord API</span>
                 </div>
                 <div class="project-body">
-                  Simple bot written in C# used for light moderation and minigames within server
+                  Simple bot written in C# used for light moderation and
+                  minigames within server
                 </div>
               </article>
             </div>
@@ -452,8 +517,8 @@
                   <span class="tag is-dark">CSS</span>
                 </div>
                 <div class="project-body">
-                  Portfolio made using HTML and the Bulma CSS framework to showcase programming
-                  projects
+                  Portfolio made using HTML and the Bulma CSS framework to
+                  showcase programming projects
                 </div>
               </article>
             </div>
@@ -482,9 +547,17 @@
       <!-- Footer -->
       <footer class="footer transparent-background">
         <div class="content has-text-centered">
-          <div class="footer-text">Designed by <span class="footer-name">Jason Mustafa</span></div>
+          <div class="footer-text">
+            Designed by
+            <span class="footer-name">Jason Mustafa</span>
+          </div>
           <a href="https://bulma.io" target="_blank" rel="noopener noreferrer">
-            <img src="/static/made-with-bulma.png" alt="Made with Bulma" width="128" height="24" />
+            <img
+              src="/static/made-with-bulma.png"
+              alt="Made with Bulma"
+              width="128"
+              height="24"
+            />
           </a>
         </div>
       </footer>

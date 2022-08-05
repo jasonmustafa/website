@@ -20,8 +20,6 @@
 
 html,
 body {
-  /* text-align: center; */
-  /* font-family: 'Lato', sans-serif; */
   font-family: 'Inter', sans-serif;
   background-color: var(--space-cadet);
   height: 100%;
@@ -45,22 +43,6 @@ body {
 .bold {
   font-weight: bold;
 }
-
-.slate {
-  color: #2b2d42;
-}
-.bluebell {
-  color: #8d99ae;
-}
-.white {
-  color: #edf2f4;
-}
-/* .red {
-  color: #EDF2F4;
-} */
-.crimson {
-  color: #d90429;
-}
 .java-color {
   color: #f29111;
 }
@@ -81,6 +63,9 @@ body {
 }
 .css-color {
   color: #264de4;
+}
+.salesforce-color {
+  color: #009edb;
 }
 .amazon-color {
   color: #ffad33;
@@ -114,6 +99,7 @@ body {
 .tag {
   margin-top: 2px;
   margin-bottom: 2px;
+  font-family: 'Inter', sans-serif;
 }
 
 /* 001 Start */
@@ -125,7 +111,8 @@ body {
   font-family: 'Lato', sans-serif !important;
   font-weight: 700;
   letter-spacing: 4px;
-  color: var(--cultured);
+  color: var(--manatee);
+  filter: brightness(1.5);
 }
 .avatar {
   width: 192px;
@@ -138,91 +125,97 @@ body {
   filter: drop-shadow(0 0 0.75rem #191d24);
 }
 .intro {
-  font-family: 'Inter', sans-serif;
   font-size: 20px;
   color: var(--manatee);
+  filter: brightness(1.5);
+}
+.intro-bold {
+  font-size: 20px;
+  color: var(--manatee);
+  filter: brightness(1.05);
 }
 .icon-margin {
   margin: 16px 12px 16px 12px;
 }
 .fa-linkedin {
+  color: var(--imperial-red);
   transition: all 0.5s;
 }
 .fa-linkedin:hover {
-  color: var(--amaranth-red);
+  color: var(--imperial-red);
+  filter: brightness(5);
 }
 .fa-github {
+  color: var(--imperial-red);
   transition: all 0.5s;
 }
 .fa-github:hover {
-  color: var(--amaranth-red);
+  color: var(--imperial-red);
+  filter: brightness(5);
 }
 .fa-hands-helping {
+  color: var(--imperial-red);
   transition: all 0.5s;
 }
 .fa-hands-helping:hover {
-  color: var(--amaranth-red);
-}
-.fa-telegram-plane {
-  transition: all 0.5s;
-}
-.fa-telegram-plane:hover {
-  color: var(--amaranth-red);
+  color: var(--imperial-red);
+  filter: brightness(5);
 }
 
 /* 002 About */
 .main-title {
-  /* font-family: 'Lato', sans-serif; */
-  /* font-size: 32px; */
-  /* font-weight: bold; */
-  /* padding: 10px; */
+  font-size: 32px;
+  font-weight: bold;
+  padding: 10px;
+  color: var(--imperial-red);
 }
-
 .main-subtitle {
-  font-family: 'Lato', sans-serif;
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 15px;
+  color: var(--manatee);
+  filter: brightness(1.5);
 }
 .main-body {
-  font-family: 'Lato', sans-serif;
   font-size: 18px;
+  color: var(--manatee);
+  filter: brightness(1.5)
 }
 .main-body-small {
-  font-family: 'Lato', sans-serif;
   font-size: 14px;
 }
 .about-me-body {
-  font-family: 'Lato', sans-serif;
   font-size: 18px;
   padding: 10px;
+  color: var(--manatee);
+  filter: brightness(1.5);
 }
 
-.tag {
-  font-family: 'Lato', sans-serif;
+.skills-container {
+  text-align: center;
 }
+.languages {
+  display: inline-block;
+  text-align: left;
+}
+
 .skills-item {
-  font-family: 'Lato', sans-serif;
   padding: 5px 5px;
 }
 .timeline-text-heading-left {
-  font-family: 'Lato', sans-serif;
   color: #9e9e9e;
   text-align: left;
 }
 .timeline-text-heading-right {
-  font-family: 'Lato', sans-serif;
   color: #9e9e9e;
   text-align: right;
 }
 .timeline-text-body-left {
-  font-family: 'Lato', sans-serif;
   font-size: 16px;
   color: #fafafa;
   text-align: left;
 }
 .timeline-text-body-right {
-  font-family: 'Lato', sans-serif;
   color: #fafafa;
   text-align: right;
 }
@@ -234,13 +227,33 @@ body {
 }
 .fa-code {
   margin: 20px;
+  color: var(--imperial-red);
+  transition: all 0.5s;
 }
+.fa-code:hover {
+  color: var(--imperial-red);
+  filter: brightness(5);
+}
+
 .fa-briefcase {
   margin: 20px;
+  color: var(--imperial-red);
+  transition: all 0.5s;
+}
+.fa-briefcase:hover {
+  color: var(--imperial-red);
+  filter: brightness(5);
 }
 .fa-project-diagram {
   margin: 20px;
+  color: var(--imperial-red);
+  transition: all 0.5s;
 }
+.fa-project-diagram:hover {
+  color: var(--imperial-red);
+  filter: brightness(5);
+}
+
 .timeline-amazon-icon {
   float: left;
   margin-right: 8px;
@@ -248,7 +261,6 @@ body {
 }
 .timeline-amazon-text-container {
   display: flex;
-  font-family: 'Lato', sans-serif;
   font-size: 16px;
   color: #fafafa;
   text-align: left;
@@ -256,14 +268,12 @@ body {
 
 /* 003 Projects */
 .project-title {
-  font-family: 'Lato', sans-serif;
   font-weight: bold;
   color: #f50057;
   font-size: 32px;
   margin-bottom: 60px;
 }
 .project-subtitle {
-  font-family: 'Lato', sans-serif;
   font-weight: bold;
   color: #fafafa;
   font-size: 20px;
@@ -277,13 +287,13 @@ body {
   margin-bottom: 8px;
 }
 .project-body {
-  font-family: 'Lato', sans-serif;
   text-align: left;
   color: #fafafa;
   font-size: 16px;
 }
 .moon {
-  filter: invert(68%) sepia(41%) saturate(345%) hue-rotate(218deg) brightness(92%) contrast(86%);
+  filter: invert(68%) sepia(41%) saturate(345%) hue-rotate(218deg)
+    brightness(92%) contrast(86%);
 }
 .fa-external-link-square-alt {
   color: #f50057;
@@ -361,12 +371,10 @@ body {
 
 /* 005 Footer */
 .footer-text {
-  font-family: 'Lato', sans-serif;
   color: #fafafa;
   font-size: 14px;
 }
 .footer-name {
-  font-family: 'Lato', sans-serif;
   color: #f50057;
   font-size: 14px;
   font-weight: bold;

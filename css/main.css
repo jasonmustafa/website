@@ -22,7 +22,7 @@ html,
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--space-cadet);
-  height: 100%;
+  /* height: 100%; */
   overflow-x: hidden;
 }
 
@@ -65,16 +65,34 @@ body {
   color: #264de4;
 }
 .salesforce-color {
-  color: #009edb;
+  color: #009edb !important;
 }
 .amazon-color {
-  color: #ffad33;
+  color: #ff9900 !important;
 }
 .rutgers-color {
   color: #ff3366;
 }
 .vmc-color {
   color: #ffd100;
+}
+.git-color {
+  color: #f1502f;
+}
+.node-color {
+  color: #68a063;
+}
+.eclipse-color {
+  color: #443583;
+}
+.intellij-color {
+  color: #087cfa;
+}
+.pycharm-color {
+  color: #3dea62;
+}
+.threejs-color {
+  color: #ffffff;
 }
 
 .gray-background {
@@ -179,7 +197,7 @@ body {
 .main-body {
   font-size: 18px;
   color: var(--manatee);
-  filter: brightness(1.5)
+  filter: brightness(1.5);
 }
 .main-body-small {
   font-size: 14px;
@@ -198,17 +216,31 @@ body {
   display: inline-block;
   text-align: left;
 }
+.software {
+  display: inline-block;
+  text-align: right;
+}
 
 .skills-item {
   padding: 5px 5px;
 }
+.timeline-text-heading-container {
+  display: inline-block;
+}
+.timeline-icon {
+  vertical-align: middle;
+}
 .timeline-text-heading-left {
   color: #9e9e9e;
   text-align: left;
+  display: inline-block;
+  vertical-align: middle;
 }
 .timeline-text-heading-right {
   color: #9e9e9e;
   text-align: right;
+  display: inline-block;
+  vertical-align: middle;
 }
 .timeline-text-body-left {
   font-size: 16px;

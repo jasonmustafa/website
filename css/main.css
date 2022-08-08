@@ -22,7 +22,6 @@ html,
 body {
   font-family: 'Inter', sans-serif;
   background-color: var(--space-cadet);
-  /* height: 100%; */
   overflow-x: hidden;
 }
 
@@ -96,7 +95,8 @@ body {
 }
 
 .gray-background {
-  background-color: rgb(38, 50, 56, 0.5);
+  background-color: var(--space-cadet);
+  filter: brightness(0.9);
 }
 
 .transparent-background {
@@ -111,7 +111,8 @@ body {
 }
 
 .tile {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .tag {
@@ -136,7 +137,8 @@ body {
   width: 192px;
   height: 192px;
   margin: auto;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .round {
   border-radius: 50%;
@@ -184,7 +186,8 @@ body {
 .main-title {
   font-size: 32px;
   font-weight: bold;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: var(--imperial-red);
 }
 .main-subtitle {
@@ -204,7 +207,8 @@ body {
 }
 .about-me-body {
   font-size: 18px;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: var(--manatee);
   filter: brightness(1.5);
 }
@@ -222,7 +226,8 @@ body {
 }
 
 .skills-item {
-  padding: 5px 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 .timeline-text-heading-container {
   display: inline-block;
@@ -301,9 +306,9 @@ body {
 /* 003 Projects */
 .project-title {
   font-weight: bold;
-  color: #f50057;
+  color: var(--imperial-red);
   font-size: 32px;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 .project-subtitle {
   font-weight: bold;
@@ -328,14 +333,30 @@ body {
     brightness(92%) contrast(86%);
 }
 .fa-external-link-square-alt {
-  color: #f50057;
+  color: var(--imperial-red);
   transition: all 0.5s;
 }
 .fa-external-link-square-alt:hover {
   color: #f8bbd0;
 }
+.fa-mask-face {
+  color: var(--imperial-red);
+  margin-top: 12px;
+  transition: all 0.5s;
+}
+.fa-mask-face:hover {
+  color: #f8bbd0;
+}
+.fa-land-mine-on {
+  color: var(--imperial-red);
+  margin-top: 12px;
+  transition: all 0.5s;
+}
+.fa-land-mine-on:hover {
+  color: #f8bbd0;
+}
 .fa-train {
-  color: #f50057;
+  color: var(--imperial-red);
   margin-top: 12px;
   transition: all 0.5s;
 }
@@ -343,7 +364,7 @@ body {
   color: #f8bbd0;
 }
 .fa-moon {
-  color: #f50057;
+  color: var(--imperial-red);
   margin-top: 12px;
   transition: all 0.5s;
 }
@@ -351,7 +372,7 @@ body {
   color: #f8bbd0;
 }
 .fa-dollar-sign {
-  color: #f50057;
+  color: var(--imperial-red);
   margin-top: 12px;
   transition: all 0.5s;
 }
@@ -359,7 +380,7 @@ body {
   color: #f8bbd0;
 }
 .fa-discord {
-  color: #f50057;
+  color: var(--imperial-red);
   margin-top: 12px;
   transition: all 0.5s;
 }
@@ -367,7 +388,7 @@ body {
   color: #f8bbd0;
 }
 .fa-home {
-  color: #f50057;
+  color: var(--imperial-red);
   margin-top: 12px;
   transition: all 0.5s;
 }
@@ -381,9 +402,9 @@ body {
 
 /* 004 Resume */
 .resume-button {
-  background-color: #f50057;
+  color: var(--imperial-red);
   color: #000000;
-  border-color: #f50057;
+  color: var(--imperial-red);
   margin: 20px;
   transition: all 0.5s;
 }
@@ -407,7 +428,7 @@ body {
   font-size: 14px;
 }
 .footer-name {
-  color: #f50057;
+  color: var(--imperial-red);
   font-size: 14px;
   font-weight: bold;
 }

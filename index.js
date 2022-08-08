@@ -115,13 +115,13 @@ document.addEventListener('DOMContentLoaded', function () {
         animateFrom(elem);
       },
       onEnterBack: function () {
-        animateFrom(elem, -1);
+        animateFrom(elem);
       },
       onLeave: function () {
-        animateTo(elem);
+        animateTo(elem, -1);
       },
       onLeaveBack: function () {
-        animateTo(elem, -1);
+        animateTo(elem);
       }
     });
   });

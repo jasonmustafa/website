@@ -111,8 +111,8 @@ body {
 }
 
 .tile {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  /* padding-top: 20px; */
+  /* padding-bottom: 20px; */
 }
 
 .tag {
@@ -186,8 +186,10 @@ body {
 .main-title {
   font-size: 32px;
   font-weight: bold;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: var(--imperial-red);
 }
 .main-subtitle {
@@ -308,7 +310,7 @@ body {
   font-weight: bold;
   color: var(--imperial-red);
   font-size: 32px;
-  /* margin-bottom: 60px; */
+  margin-bottom: 20px;
 }
 .project-subtitle {
   font-weight: bold;
@@ -403,15 +405,16 @@ body {
 /* 004 Resume */
 .resume-button {
   color: var(--imperial-red);
-  color: #000000;
-  color: var(--imperial-red);
-  margin: 20px;
+  background-color: var(--space-cadet);
+  margin: 20px auto;
+  display: block;
+  width: 200px;
+  /* margin: 20px; */
   transition: all 0.5s;
 }
 .resume-button:hover {
-  background-color: #f8bbd0;
-  color: #182030;
-  border-color: #f8bbd0;
+  background-color: var(--imperial-red);
+  color: var(--cultured);
 }
 .li-center {
   display: flex;

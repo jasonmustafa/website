@@ -108,14 +108,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     ScrollTrigger.create({
       trigger: elem,
-      start: "bottom 90%",
-      end: "top 10%",
+      start: "bottom bottom",
+      end: "top top",
       // markers: true,
       onEnter: function () {
-        animateFrom(elem);
+        animateFrom(elem, -1);
       },
       onEnterBack: function () {
-        animateFrom(elem);
+        animateFrom(elem, -1);
       },
       onLeave: function () {
         animateTo(elem, -1);

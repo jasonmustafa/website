@@ -7,45 +7,22 @@
 
 ---
 
-## Installation
-
-### Clone
-
-- Clone this repository using `https://github.com/jasonmustafa/website.git`
-
-### Setup
-
-- Load the HTML locally - I recommend using [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for [VS Code](https://code.visualstudio.com).
-
----
-
 ## Technologies
 
+- [GSAP](https://greensock.com/gsap/) - Animations
 - [Bulma](https://bulma.io) - CSS Framework
-- [Animate.css](https://daneden.github.io/animate.css) - CSS Animation Library
 - [Font Awesome](https://fontawesome.com/) - Icons
-
----
-
-## Author
-
-| <a href="https://www.jasonmustafa.com" target="_blank">**Jason Mustafa**</a>
-| :---: |
-| <a href="https://www.jasonmustafa.com" target="_blank"><img src="https://github.com/jasonmustafa.png" width="200" height="200" /></a> |
-| <a href="https://github.com/jasonmustafa" target="_blank">`github.com/jasonmustafa`</a> |
-
----
 
 ## Support
 
 Find me here as well!
 
 - LinkedIn: <a href="https://www.linkedin.com/in/jasonmustafa" target="_blank">`https://www.linkedin.com/in/jasonmustafa`</a>
-- Telegram: <a href="https://telegram.me/jasonmustafa" target="_blank">`https://telegram.me/jasonmustafa`</a>
+- Handshake: <a href="https://app.joinhandshake.com/users/9931440" target="_blank">`https://app.joinhandshake.com/users/9931440`</a>
 
 ---
 
 ## License
 
 - **[MIT license](http://opensource.org/licenses/mit-license.php)**
-- Copyright 2019 © <a href="https://www.jasonmustafa.com" target="_blank">Jason Mustafa</a>.
+- Copyright 2022 © <a href="https://www.jasonmustafa.com" target="_blank">Jason Mustafa</a>.

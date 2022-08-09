@@ -48,9 +48,6 @@ body {
 .python-color {
   color: #ffcd3a;
 }
-.c-color {
-  color: #659bd3;
-}
 .js-color {
   color: #f5de19;
 }
@@ -87,9 +84,6 @@ body {
 .intellij-color {
   color: #087cfa;
 }
-.pycharm-color {
-  color: #3dea62;
-}
 .threejs-color {
   color: #ffffff;
 }
@@ -108,11 +102,6 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: transform 0s;
-}
-
-.tile {
-  /* padding-top: 20px; */
-  /* padding-bottom: 20px; */
 }
 
 .tag {
@@ -137,8 +126,7 @@ body {
   width: 192px;
   height: 192px;
   margin: auto;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  filter: opacity(0.8);
 }
 .round {
   border-radius: 50%;
@@ -186,8 +174,6 @@ body {
 .main-title {
   font-size: 32px;
   font-weight: bold;
-  /* padding-top: 10px;
-  padding-bottom: 10px; */
   margin-top: 10px;
   margin-bottom: 10px;
   color: var(--imperial-red);
@@ -231,11 +217,9 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.timeline-text-heading-container {
-  display: inline-block;
-}
 .timeline-icon {
-  vertical-align: middle;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .timeline-text-heading-left {
   color: #9e9e9e;
@@ -291,18 +275,6 @@ body {
 .fa-project-diagram:hover {
   color: var(--imperial-red);
   filter: brightness(5);
-}
-
-.timeline-amazon-icon {
-  float: left;
-  margin-right: 8px;
-  margin-top: 8px;
-}
-.timeline-amazon-text-container {
-  display: flex;
-  font-size: 16px;
-  color: #fafafa;
-  text-align: left;
 }
 
 /* 003 Projects */
@@ -409,7 +381,6 @@ body {
   margin: 20px auto;
   display: block;
   width: 200px;
-  /* margin: 20px; */
   transition: all 0.5s;
 }
 .resume-button:hover {
